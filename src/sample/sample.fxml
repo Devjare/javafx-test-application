@@ -3,6 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<?import com.sun.javafx.scene.control.skin.TabPaneSkin.TabControlButtons?>
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
@@ -13,8 +14,5 @@
       <RowConstraints />
    </rowConstraints>
 
-   <Label alignment="CENTER">
-      Hello world
-   </Label>
 
 </GridPane>
